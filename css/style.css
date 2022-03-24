@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.promo {
+  background-color: #1cd1b0;
+  padding: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: #00669f;
+}
+
+.logo img {
+  margin-left: 15px;
+}
+
+.logo h1 {
+  margin-left: 25px;
+  color: white;
+}
+
+.nav-bar {
+  background-color: #001d2d;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-bar ul li {
+  list-style: none;
+  margin-right: 20px;
+  padding: 10px;
+  
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.nav-bar ul li a:active {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.container-flex {
+height: calc(100vh - 170px) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-secundario {
+  display: flex;
+  flex-direction: column;
+}
+
+.caixa-principal {
+  background-color: #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 300px;
+  position: relative;
+  box-shadow: 0 10px 10px rgba(128, 127, 127, 0.603);
+  margin-right: 50px;
+}
+
+.img-batman {
+  height: 120px;
+  width: 120px;
+  object-fit: contain;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  border-radius: 50%;
+}
+
+.caixa-principal h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.caixa-principal p {
+  font-size: 16px;
+  padding: 17px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  background-color: #00669f;
+  width: 128.78px;
+  height: 48.52px;
+}
+
+.botao a {
+    color: white;
+    text-decoration: none;
+}
+
+.img-superman {
+    height: 120px;
+  width: 125px;
+ 
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  border-radius: 50%;
+
+}
+
+.caixa {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    z-index: 2;
+    padding: 10px;
+}
+
+footer {
+    background-color: #00669F;
+    padding: 10px;
+    color:white;
+    text-align: center;
+}
